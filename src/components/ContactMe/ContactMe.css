@@ -1,0 +1,52 @@
+.contact-me {
+    background-color: palevioletred;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-me h2 {
+    color: white;
+  }
+  
+  .contact-me form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-me .form-group {
+    margin-bottom: 25px;
+  }
+  
+  .contact-me label {
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .contact-me input[type="text"],
+  .contact-me input[type="email"],
+  .contact-me textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid darkmagenta;
+    border-radius: 5px;
+  }
+  
+  .contact-me textarea {
+    height: 130px;
+  }
+  
+  .contact-me button[type="submit"] {
+    padding: 10px 20px;
+    border: solid;
+    background-color: palevioletred;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-me button[type="submit"]:hover {
+    background-color: darkmagenta;
+    
+  }
