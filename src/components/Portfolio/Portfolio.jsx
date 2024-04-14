@@ -1,4 +1,6 @@
 import React from 'react';
+import './Portfolio.css'
+
 
 const projects = [
     {
@@ -49,37 +51,45 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <h2>Portfolio</h2>
-      <div className="project-list">
-        {projects.map(project => (
-          <div className="project" key={project.id}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <a href={project.githubLink}>Github Repo</a>
-            <br />
-            <a href={project.deployedLink}>Deployed Link/Video Walkthrough</a>
+      <div className="project d-flex flex-wrap">
+        {projects.map((project,key) => (
+          < div key={key} className="card">
+          <img src="..." className="card-img-top" alt={project.title}/>
+          <div className="portfolio">
+            <h3 className="card-title">{project.title}</h3>
+            <p className="card-text">{project.description}</p>
+            <a href={project.githubLink} className="btn btn-primary">Github Link</a>
+            <a href={project.deployedLink} className="btn btn-primary">Deployed Link/Video Walkthrough</a>
           </div>
+        </div>
+          // <div className="project" key={project.id}>
+          //   <h3>{project.title}</h3>
+          //   <p>{project.description}</p>
+          //   <a href={project.githubLink}>Github Repo</a>
+          //   <br />
+          //   <a href={project.deployedLink}>Deployed Link/Video Walkthrough</a>
+          // </div>
         ))}
       </div>
     </div>
   );
 }
 
+{/* <div className="card" style="width: 18rem;">
+  <img src="..." className="card-img-top" alt="..."/>
+  <div className="portfolio">
+    <h2 className="card-title">{project.title}</h2>
+    <p className="card-text">{project.description}</p>
+    <a href={project.githubLink} className="btn btn-primary">Github Link</a>
+    <a href={project.deployedLink} className="btn btn-primary">Deployed Link/Video Walkthrough</a>
+  </div>
+</div> */}
+
 export default Portfolio;
 
 
-// This is from activity 24/solved/components/pages/aboutpage THIS IS HOW I WANT THE PORTFOLIO PAGE TO LOOK
-// export default function AboutPage() {
-//     return (
-//       <div className="container pt-4">
-//         <p>
-//           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-//           tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-//           impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-//           architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-//           adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-//           mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-//           nostrum temporibus ad omnis nam rerum eligendi.
-//         </p>
+// // This is from activity 24/solved/components/pages/aboutpage THIS IS HOW I WANT THE PORTFOLIO PAGE TO LOOK
+
 //         <section className="features-icons bg-light text-center m-4">
 //           <div className="container">
 //             <div className="row p-2">
@@ -94,7 +104,7 @@ export default Portfolio;
 //                   </p>
 //                 </div>
 //               </div>
-//               <div className="col-lg-4">
+//               {/* <div className="col-lg-4">
 //                 <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
 //                   <div className="features-icons-icon d-flex">
 //                     <i className="bi-layers m-auto text-primary" />
@@ -124,4 +134,4 @@ export default Portfolio;
 //       </div>
 //     );
 //   }
-  
+//    */  */}

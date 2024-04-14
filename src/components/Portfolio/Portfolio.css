@@ -1,4 +1,22 @@
 .portfolio {
+    color: palevioletred;
+    font-weight: 500;
+    margin-bottom: 15px
+}
+
+.portfolio h2 {
     text-align: center;
+    font-size: 43px;
+    text-decoration: underline;
     
+}
+
+.card{
+    width:30%;
+}
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
