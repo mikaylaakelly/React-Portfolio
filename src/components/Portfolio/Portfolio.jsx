@@ -4,21 +4,21 @@ const projects = [
     {
         id: 1,
         title: 'Weather App',
-        description: 'An app that you can use to search for the weather in a city and be provided with that day\'s weather and a 5-day forecast.',
+        description: 'An app that you can use to search for the weather in a city and be provided with that days weather and a 5-day forecast.',
         githubLink: 'https://github.com/mikaylaakelly/module-6-weatherAPI',
         deployedLink: 'https://mikaylaakelly.github.io/module-6-weatherAPI/'
     },
   {
     id: 2,
     title: 'Work Day Scheduler',
-    description: 'A simple calendar app for scheduling your work day',
+    description: 'A simple calendar app for scheduling your work day.',
     githubLink: 'https://github.com/mikaylaakelly/module-5-calendar',
     deployedLink: 'https://mikaylaakelly.github.io/module-5-calendar/'
   },
   {
     id: 3,
     title: 'ReadMe Generator',
-    description: 'Fusce id orci convallis, maximus mi nec, ultricies ipsum. Nullam hendrerit lorem ut ex placerat.',
+    description: 'A command line series of prompts that you answer and the application will then generate a professional looking ReadMe for your project.',
     githubLink: 'https://github.com/mikaylaakelly/ReadMeGenerator',
     deployedLink: 'https://drive.google.com/file/d/1LspdURNtchZHVwCS5sCkwSPtpY9nlRaH/view'
   },
@@ -32,7 +32,7 @@ const projects = [
   {
     id: 5,
     title: 'Recipe Place',
-    description: 'A group project where we created an app that can search for recipes and ingredients that you have on hand, and returns a list of recipes you can make. You can then save the recipes you like to use later',
+    description: 'A group project where we created an app that can search for recipes and ingredients that you have on hand, and returns a list of recipes you can make. You can then save the recipes you like to use later.',
     githubLink: 'https://github.com/Ashloraptor/MARJ',
     deployedLink: 'https://ashloraptor.github.io/MARJ/'
   },
@@ -65,7 +65,7 @@ function Portfolio() {
 }
 
 export default Portfolio;
-// export default Portfolio;
+
 
 // This is from activity 24/solved/components/pages/aboutpage THIS IS HOW I WANT THE PORTFOLIO PAGE TO LOOK
 // export default function AboutPage() {
@@ -120,15 +120,7 @@ export default Portfolio;
 //             </div>
 //           </div>
 //         </section>
-//         <p>
-//           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-//           tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-//           impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-//           architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-//           adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-//           mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-//           nostrum temporibus ad omnis nam rerum eligendi.
-//         </p>
+        
 //       </div>
 //     );
 //   }

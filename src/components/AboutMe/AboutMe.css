@@ -2,12 +2,13 @@
     background-color: palevioletred;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, .4);
+    color: white;
+    font-size: 20 px;
 }
 
-.about-me h2 h3{
-    color: white;
+.about-me h1 {
     text-align: center;
+    color: white;
     
 }
-

@@ -1,12 +1,26 @@
 .footer {
-    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     height: 4rem;
-    mask-image: linear-gradient(to bottom, transparent, #302c27);;
+    mask-image: linear-gradient(to bottom, transparent, #885aad);;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 500;
+    font-weight: 800;
     font-size: small;
-    color: palevioletred;
+    color: rgb(219, 206, 210);
+    
+
+}
+
+.footer img {
+
+    width: 50px;
+    height: 50px;
+    border: solid palevioletred;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, .4);
 
 }

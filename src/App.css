@@ -1,13 +1,23 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
+  body h1 {
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
   
   .App {
+    background-image: url(/assets/backgound.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #f3efef;
     min-height: 100vh;
     font-family: "Montserrat", sans-serif;
     
@@ -22,10 +32,11 @@ body {
     max-width: 800px;
     margin-top: 20px;
     border-radius: 5px;
+    
   }
    
   header {
-    background-color: #333;
+    background-color: palevioletred;
     color: white;
     padding: 10px 20px;
     width: 100%;
@@ -34,11 +45,11 @@ body {
   }
   
   footer {
-    background-color: #333;
+    background-color: #885aad;
     color: white;
     padding: 20px 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
     width: 100%;
     position: fixed;
@@ -68,19 +79,25 @@ body {
   
   .navigation-link {
     text-decoration: none;
-    color: #333;
-    font-weight: 600;
+    color: palevioletred;
+    font-weight: 800;
     padding: 8px 16px;
     background-color: #f4f4f4;
-    border: 1px solid #333;
+    border: 3px solid palevioletred;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     cursor: pointer;
   }
   
   .navigation-link:hover {
-    background-color: #555;
+    background-color: palevioletred;
     color: white;
-    border: 1px solid #555;
+    border: 1px solid palevioletred;
   } 
-   
+
+  @media screen and (max-width: 768px) {
+    footer {
+      font-size: 18px;
+      padding: 15px 0;
+    }
+  }

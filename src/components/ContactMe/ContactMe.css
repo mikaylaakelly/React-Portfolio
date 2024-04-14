@@ -7,12 +7,17 @@
   
   .contact-me h2 {
     color: white;
+    justify-content: center;
+    text-align: center;
   }
   
   .contact-me form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    border: 3px solid palevioletred;
+
   }
   
   .contact-me .form-group {
