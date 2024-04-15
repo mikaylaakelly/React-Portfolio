@@ -1,6 +1,5 @@
 # React-Portfolio
 
-# MVC-Tech Blog
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 * [License](#license)
