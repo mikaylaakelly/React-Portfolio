@@ -1,0 +1,19 @@
+.resume {
+    text-align: center;
+    color: palevioletred;
+    background-color: paleturquoise;
+    
+
+}
+
+.resume h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.resume-link {
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}

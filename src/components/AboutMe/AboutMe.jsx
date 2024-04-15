@@ -1,4 +1,6 @@
 import React from "react";
+import Family from '../../../assets/family.jpg';
+import Portrait from '../../../assets/portrait.png';
 import './AboutMe.css'
 
 function AboutMe() {
@@ -12,6 +14,8 @@ function AboutMe() {
                 program I have learned so much about front and back end, and I hope to continue to grow and learn more 
                 in the future.
             </p>
+            <img src= {Family} alt="My Image" className="my-image" />
+            <img src= {Portrait} alt="My Image" className="my-image" />
             <p>The links in my portfolio are all projects I have been able to create during the bootcamp I am currently enrolled in. I love to go all 
                 out on design and putting my sparkle on things when I have enough time to do so. I consider all of these projects accomplishments but also 
                 things that I can look back on and improve with what I learned further on in the future. I was also lucky enough to do both of our group projects

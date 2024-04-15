@@ -5,6 +5,7 @@
     box-shadow: 0 7px 15px rgba(0, 0, 0, .4);
     color: white;
     font-size: 20 px;
+    text-align: center;
 }
 
 .about-me h1 {
@@ -12,3 +13,12 @@
     color: white;
     
 }
+
+.my-image {
+    max-width: 300px; 
+    height: 250px;  
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+    align-items: center;
+    margin-left: 50px;
+  }
